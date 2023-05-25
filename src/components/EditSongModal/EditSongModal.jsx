@@ -70,6 +70,7 @@ const EditSongModal = ({ songData, setSelectedSong, fetchSongs }) => {
 						label="Length"
 						type="number"
 					/>
+
 					<div className="flex justify-between">
 						<button onClick={handleDelete} className="btn btn-danger" data-cy="delete-song-btn">
 							Delete Song

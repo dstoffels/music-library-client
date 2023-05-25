@@ -34,7 +34,7 @@ const MusicTable = ({ filter }) => {
 				setSelectedSong={setSelectedSong}
 				fetchSongs={fetchSongs}
 			/>
-			<table>
+			<table className="table table-striped table-hover">
 				<thead>
 					<tr>
 						<th>Title</th>

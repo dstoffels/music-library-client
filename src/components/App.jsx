@@ -2,6 +2,8 @@ import Navbar from './Navbar/Navbar.jsx';
 import MusicTable from './MusicTable/MusicTable.jsx';
 import { useState } from 'react';
 
+import './App.css';
+
 function App() {
 	const [filter, setFilter] = useState({ searchField: 'title', query: '' });
 
