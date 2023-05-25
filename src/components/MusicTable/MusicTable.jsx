@@ -1,7 +1,6 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 
-import './MusicTable.css';
 import SongForm from '../SongForm/SongForm.jsx';
 import SongRow from '../SongRow/SongRow.jsx';
 import EditSongModal from '../EditSongModal/EditSongModal.jsx';
@@ -28,14 +27,14 @@ const MusicTable = ({ filter }) => {
 		.map((song, i) => <SongRow song={song} key={`song-${i}`} setSelectedSong={setSelectedSong} />);
 
 	return (
-		<div className='song-table'>
+		<div>
 			<SongForm fetchSongs={fetchSongs} />
 			<EditSongModal
 				songData={selectedSong}
 				setSelectedSong={setSelectedSong}
 				fetchSongs={fetchSongs}
 			/>
-			<table className='table table-hover '>
+			<table>
 				<thead>
 					<tr>
 						<th>Title</th>
