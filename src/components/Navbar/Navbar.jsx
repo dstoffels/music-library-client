@@ -2,6 +2,8 @@ import React from 'react';
 
 import SearchBar from '../SearchBar/SearchBar.jsx';
 
+import './Navbar.css';
+
 const Navbar = ({ setFilter }) => {
 	return (
 		<header>
