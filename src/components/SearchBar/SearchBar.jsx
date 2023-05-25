@@ -23,7 +23,7 @@ const SearchBar = ({ setFilter }) => {
 		<form onSubmit={handleSubmit} className="searchbar">
 			<select
 				data-cy="search-bar_select"
-				className="form-select"
+				className=""
 				value={searchField}
 				onChange={(e) => setSearchField(e.target.value)}
 			>
@@ -36,7 +36,7 @@ const SearchBar = ({ setFilter }) => {
 			<input
 				data-cy="search-bar_input"
 				type="search"
-				className="form-control"
+				className=""
 				placeholder="Search"
 				value={query}
 				onChange={(e) => setQuery(e.target.value.toLowerCase())}
