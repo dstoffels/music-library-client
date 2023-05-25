@@ -1,0 +1,13 @@
+header {
+	padding: 25px 150px;
+	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.4);
+	background-color: whitesmoke;
+	position: fixed;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.text-grey {
+	color: grey;
+}

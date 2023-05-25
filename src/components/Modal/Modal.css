@@ -1,0 +1,20 @@
+.modal-bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 10000;
+}
+
+.modal-children {
+	position: relative;
+	top: 50%;
+	left: 50%;
+	width: 40vw;
+	transform: translate(-50%, -50%);
+	background-color: white;
+	z-index: 10001;
+	padding: 20px;
+}
